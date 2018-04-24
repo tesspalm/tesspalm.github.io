@@ -1,0 +1,49 @@
+body{
+        display:grid;
+    grid-template-areas: 
+        "header header header header"
+        "nav nav aside section"
+        "footer footer footer footer";
+    grid-template-rows:2fr .5fr 2fr 2fr;
+    grid-template-columns: 50% 1fr 1fr 20%;
+    height: 100vh;
+  background-color:#A30134;
+
+}
+h1{
+    font: Goudy Old Style;
+    font: Georgia;
+    font-size: 4em;
+    font-weight:bold;
+    color:#E9E3DB;
+    grid-area: header;
+    align-items: center;
+    align-content: center;
+    width:100%;
+}
+
+h1 img{
+    width:150px;
+    height: 150px;
+    
+    
+}
+button{
+    height:90%;
+    background-color:#A6B4DC;
+    width:30%;
+    font:Goudy Old Style;
+    font: Georgia;
+    font-size: 2em;
+    margin:0px;
+    align-items:flex-start;
+    padding:10px;
+    border:solid black;
+}
+#app{
+    width:35%;
+}
+nav{
+    grid-area:nav;
+    padding-left: 20px;
+}
