@@ -1,49 +1,79 @@
+/*This is the top content for all pages*/
 body{
-        display:grid;
-    grid-template-areas: 
-        "header header header header"
-        "nav nav aside section"
-        "footer footer footer footer";
-    grid-template-rows:2fr .5fr 2fr 2fr;
-    grid-template-columns: 50% 1fr 1fr 20%;
-    height: 100vh;
-  background-color:#A30134;
+       background-color:whitesmoke;
+    font-family: Zurich;
+    font-family: Arial;
 
 }
 h1{
     font: Goudy Old Style;
     font: Georgia;
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight:bold;
-    color:#E9E3DB;
-    grid-area: header;
-    align-items: center;
-    align-content: center;
-    width:100%;
+    color:#A30134;
+    padding-top: 30px;
+}
+img{
+    margin:20px;  
 }
 
-h1 img{
-    width:150px;
-    height: 150px;
-    
-    
-}
-button{
-    height:90%;
-    background-color:#A6B4DC;
-    width:30%;
+.nav-item{
+    background-color:	#A6B4DC;
+    color:black;
     font:Goudy Old Style;
     font: Georgia;
     font-size: 2em;
-    margin:0px;
-    align-items:flex-start;
-    padding:10px;
-    border:solid black;
+    border: black;
 }
-#app{
-    width:35%;
+.nav-item:hover{
+    background-color:#7A8B76;
 }
-nav{
-    grid-area:nav;
-    padding-left: 20px;
+#navbarSupportedContent{
+    background-color:whitesmoke;
 }
+
+
+form{
+    margin:10px;
+}
+form button:hover{
+    background-color:red;
+}
+
+/*CSS specific to the home page content*/
+
+#aside{
+    background-color:antiquewhite;
+    padding-top:15px;
+    margin:5px;
+}
+ul{
+    list-style-type: none;
+}
+h3{
+    text-align: center;
+}
+h2{
+    font-family: Zurich;
+    font-family: Arial;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+#newsimg{
+    align-content: center;
+    width: 90%;
+    height: 30%;
+}
+#footer{
+    background-color: #A30134;
+    color:white;
+    padding:20px;
+}
+a{
+    color:white;
+}
+
+
+
